@@ -1,0 +1,8 @@
+Fichier de tracé 'D:\Electronique\Piratage Console\PSX\ChipS\Hardware\Schematics\Outputs\Gerber\ChipS-F.Cu.gbr' créé.
+Fichier de tracé 'D:\Electronique\Piratage Console\PSX\ChipS\Hardware\Schematics\Outputs\Gerber\ChipS-B.Cu.gbr' créé.
+Fichier de tracé 'D:\Electronique\Piratage Console\PSX\ChipS\Hardware\Schematics\Outputs\Gerber\ChipS-B.SilkS.gbr' créé.
+Fichier de tracé 'D:\Electronique\Piratage Console\PSX\ChipS\Hardware\Schematics\Outputs\Gerber\ChipS-F.SilkS.gbr' créé.
+Fichier de tracé 'D:\Electronique\Piratage Console\PSX\ChipS\Hardware\Schematics\Outputs\Gerber\ChipS-B.Mask.gbr' créé.
+Fichier de tracé 'D:\Electronique\Piratage Console\PSX\ChipS\Hardware\Schematics\Outputs\Gerber\ChipS-F.Mask.gbr' créé.
+Fichier de tracé 'D:\Electronique\Piratage Console\PSX\ChipS\Hardware\Schematics\Outputs\Gerber\ChipS-Dwgs.User.gbr' créé.
+Fichier de tracé 'D:\Electronique\Piratage Console\PSX\ChipS\Hardware\Schematics\Outputs\Gerber\ChipS-Edge.Cuts.gbr' créé.
