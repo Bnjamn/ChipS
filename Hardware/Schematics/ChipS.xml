@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:/Electronique/Piratage Console/PSX/ChipS/Hardware/Schematics/ChipS.sch</source>
+    <date>03/09/2017 11:21:47</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ChipS</title>
+        <company/>
+        <rev>A</rev>
+        <date>2017-07-15</date>
+        <source>ChipS.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>PIC12C508</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/40139e.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Microchip</field>
+        <field name="PartNumber">PIC12C508-04/P</field>
+        <field name="Supplier">Farnell</field>
+        <field name="SupplierPN">9758763</field>
+        <field name="Price">1.69</field>
+      </fields>
+      <libsource lib="ChipS-cache" part="PIC12C508"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5969EAAC</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>120R</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf</datasheet>
+      <fields>
+        <field name="PaerNumber">ERJ8GEYJ121V</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="Supplier">Farnell</field>
+        <field name="SupplierPN">2057814</field>
+        <field name="Price">0.0332</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5969F049</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206_HandSoldering</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2095939.pdf</datasheet>
+      <fields>
+        <field name="PartNumber">HSME-C150</field>
+        <field name="Supplier">Farnell</field>
+        <field name="SupplierPN">1219737</field>
+        <field name="Price">0.558</field>
+        <field name="Manufacturer">BROADCOM</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5969F4B7</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_01X07</value>
+      <footprint>Connectors_Molex:Molex_PicoBlade_53398-0771_07x1.25mm_Straight</footprint>
+      <datasheet>http://www.molex.com/pdm_docs/sd/533980771_sd.pdf</datasheet>
+      <fields>
+        <field name="PartNumber">53398-0771</field>
+        <field name="Manufacturer">MOLEX</field>
+        <field name="Supplier">Farnell</field>
+        <field name="SupplierPN">9786368</field>
+        <field name="Price">1.04</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X07"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5969FCFB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_01X07">
+      <description>Connector, single row, 01x07, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X07</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ChipS-cache" part="PIC12C508">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PIC12C508</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="GP5" type="BiDi"/>
+        <pin num="3" name="GP4" type="BiDi"/>
+        <pin num="4" name="GP3" type="BiDi"/>
+        <pin num="5" name="GP2" type="input"/>
+        <pin num="6" name="GP1" type="BiDi"/>
+        <pin num="7" name="GP0" type="BiDi"/>
+        <pin num="8" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="ChipS-cache">
+      <uri>D:\Electronique\Piratage Console\PSX\ChipS\Hardware\Schematics\ChipS-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/GP1">
+      <node ref="J1" pin="6"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="2" name="/GP2">
+      <node ref="U1" pin="5"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="3" name="/GP5">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="4" name="/GP0">
+      <node ref="U1" pin="7"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="6" name="/GP3">
+      <node ref="U1" pin="4"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="7" name="/GP4">
+      <node ref="J1" pin="4"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="8" name="VDD">
+      <node ref="U1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="U1" pin="8"/>
+      <node ref="J1" pin="2"/>
+    </net>
+  </nets>
+</export>
